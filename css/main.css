@@ -259,13 +259,29 @@ aside#contents > h1 {
    font-weight: 300;
 }
 
-.left {
-   text-align: left;
+.content {
    position: relative;
    padding: 3em 20%;
    padding-left: 5%;
    border-top: 3px grey solid;
-   width: 75%
+   padding-right: 0;
+   margin-right: 0;
+   width: 95%;
+   display: flex;
+   align-items: center;
+}
+
+.left {
+   text-align: left;
+   width: 55%;
+   margin-right: 0;
+   float: left;
+}
+
+.floatRight {
+   width: 30%;
+   float: left;
+   margin-left: 5%;
 }
 
 
