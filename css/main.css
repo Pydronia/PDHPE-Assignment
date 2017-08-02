@@ -259,7 +259,7 @@ aside#contents > h1 {
    font-weight: 300;
 }
 
-.content {
+.contentLeft {
    position: relative;
    padding: 3em 20%;
    padding-left: 5%;
@@ -271,6 +271,19 @@ aside#contents > h1 {
    align-items: center;
 }
 
+.contentRight {
+   position: relative;
+   padding: 3em 20%;
+   padding-right: 5%;
+   border-top: 3px grey solid;
+   padding-left: 5%;
+   margin-left: 0;
+   width: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
 .left {
    text-align: left;
    width: 55%;
@@ -278,10 +291,23 @@ aside#contents > h1 {
    float: left;
 }
 
+.right {
+   text-align: right;
+   width: 55%;
+   float: right;
+   display: inline;
+}
+
 .floatRight {
    width: 30%;
    float: left;
    margin-left: 5%;
+}
+
+.floatLeft {
+   width: 30%;
+   float: right;
+   margin-right: 5%;
 }
 
 
