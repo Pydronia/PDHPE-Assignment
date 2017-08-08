@@ -251,12 +251,28 @@ aside#contents > h1 {
    padding: 3em 20%;
 }
 
+#learnBot {
+   text-align: center;
+   position: relative;
+   padding: 3em 20%;
+   border-top: 3px gray solid;
+}
+
 .sub {
    font-size: 215%;
 }
 
 #learn p, .sub{
    font-weight: 300;
+}
+
+#learnBot p, .sub{
+   font-weight: 300;
+}
+
+#animate {
+    position: relative;
+    width: 20%;
 }
 
 .contentLeft {
